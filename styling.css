@@ -1,0 +1,13 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2em;
+    color: #89CA8D;
+}
+
+.header {
+    border-bottom: #89CA8D solid 1px;
+}

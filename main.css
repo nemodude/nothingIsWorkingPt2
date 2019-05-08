@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto auto auto auto;
+    grid-template-areas: 
+    "tH"
+    "hP"
+    "hG"
+    "tR"
+
+    ;
+}
+
+.header {
+    grid-area: tH;
+    display:grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-areas: 
+    "b t";
+}
+
+.backButton {
+    grid-area: b;
+    
+}
+
+.pageTitle {
+    grid-area: t;
+}
+
+.headline {
+    grid-area: hP;
+}
+
+.headlineGrid {
+    grid-area: hG;
+}
+
+.theRest {
+    grid-area: tR;
+}
+
